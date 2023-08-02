@@ -19,6 +19,8 @@ nav,.thirdSection,.fourthSection,.fifthSection {
     font-size: small;
     background-image: linear-gradient(to left, rgb(118, 62, 175) , rgb(105, 150, 193));
 }
+
+
 .botNav {
     display: flex;
     justify-content: space-between;
@@ -116,14 +118,12 @@ nav,.thirdSection,.fourthSection,.fifthSection {
 .bot_hover:hover{
     content: "";
     /* border-bottom: 3px solid rgb(95, 95, 185);  */
-    color: blueviolet;
     left: auto;
-    bottom: 0;
+    bottom: 10px;
     transition: transform 0.3s ease;
     transform: scale(1, 1);
     padding-bottom: 5px; 
     width: 100%; 
-    border-radius: 5px; 
 
 } 
 
@@ -276,10 +276,17 @@ td, th {
     position: fixed;
     right: 0;
     bottom: 20%;
-    border: 5px solid #1250ba;
+    border: 2px solid #1250ba;
     border-right: none; 
     padding: 3px; 
     border-radius: 5px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.sideIcon:hover {
+    width: 100px;
+    height: 100px;
 }
