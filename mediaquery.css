@@ -68,9 +68,12 @@
       align-items: center;
       margin-bottom: 5px;
    }
-   .tbody {
-       overflow-y: scroll;
-   }
+   tbody {
+    margin: 0% 10% 0% 10%;
+    padding: 0;
+    overflow-x: scroll;
+
+}
 
    table thead tr td {
        column-span: 1;
