@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
     /* overflow: hidden; */
 }
 
@@ -178,8 +179,8 @@ nav,.thirdSection,.fourthSection,.fifthSection {
     text-decoration: none;
     padding-left: 15px;
     box-sizing: border-box;
-    color: black;
-    font-weight: bold;
+    color: rgb(56, 54, 54);
+    font-weight: 600;
 }
 .fourthSection_center::after {
     content: "";
@@ -249,7 +250,7 @@ nav,.thirdSection,.fourthSection,.fifthSection {
 }
 
 .highlightsScrollbar {
-    border: 1px solid rgb(200, 198, 198);
+    border: 1px solid rgb(230, 226, 226);
     width: 90%;
     height: 200px;
     margin: 30px;
@@ -260,17 +261,39 @@ nav,.thirdSection,.fourthSection,.fifthSection {
     padding: 15px 5px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(200, 198, 198);
+    border: 1px solid rgb(226, 225, 225);
 }
 
 .highlightsScrollbar::-webkit-scrollbar {
-    width: 5px;               
+    width: 5px;  
   }
   
 .highlightsScrollbar::-webkit-scrollbar-thumb {
-    background-color: rgb(188, 188, 200);   
+    background-color: rgb(188, 188, 200);
     border-radius: 20px;       
   }
+
+  .highlights-List span {
+    color: #24ae38;
+    font-size: 20px;
+  }
+
+.highlights-List-Left {
+    color: rgb(89, 84, 84);
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.highlights-List-Left p {
+    font-size: 13px;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 25px;
+    display: inline;
+    background-color: #1250ba;
+}
 .tableHeader {
     display: flex;
     justify-content: space-between;
@@ -279,6 +302,28 @@ nav,.thirdSection,.fourthSection,.fifthSection {
     margin: 0% 10%;
     margin-top: 5%;
     padding: 15px;
+ }
+ .white-Button {
+    float: right; 
+    background-color: white;
+    padding: 5px; 
+    color: black;  
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+ }
+
+ .black-Button {
+    float: right; 
+    color: white; 
+    font-weight: 500;
+    background-color: black; 
+    padding: 10px 15px;
+    border-radius: 5px;
+ }
+ .white-Button:hover {
+    background-color: black;
+    color: white;
  }
 table {
     margin: 0% 10% 0% 10%;
