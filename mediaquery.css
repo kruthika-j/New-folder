@@ -1,10 +1,10 @@
 @media screen and (max-width: 900px) {
     
-   .topNav {
+   .top-Nav {
        display: none;
    }
 
-   .botNav {
+   .bot-Nav {
        border-bottom: 1px solid black;
        /* box-shadow: 
        0px 7.4px 9.6px -2px rgba(0, 0, 0, 0.24),
@@ -15,7 +15,7 @@
        0px 269px 348px -2px rgba(0, 0, 0, 0.067)
      ; */
    }
-   nav,.thirdSection,.fourthSection,.fifthSection {
+   nav,.third-Section,.fourth-Section,.fifth-Section {
        padding-left: 5%;
        padding-right: 5%;
 
@@ -25,7 +25,7 @@
     display: none;
    }
 
- .resNav {
+ .res-Nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -33,37 +33,37 @@
    } 
 
 
-   .thirdSection {
+   .third-Section {
        display: block;
        height: 160px;
        text-align: center;
        line-height: 28px;
    }
-   .thirdSectionLeft {
+   .third-Section-Left {
        border-left: none;
        margin-top: 0px;
    }
-   .fourthSection {
+   .fourth-Section {
        height: 180px;
        text-align: center;
    }
-   .fourthSectionMid{  
+   .fourth-Section-Mid{  
        flex-direction: column;
        text-align: center;
    }
-   .fourthSection_center {
+   .fourth-Section-center {
        padding: 10px 0px;
    }
-   .fourthSectionLink {
+   .fourth-Section-Link {
        vertical-align: middle;
    }
-   .fifthSection {
+   .fifth-Section {
        flex-direction: column;
    }
-   .report,.highlights {
+   .report, .highlights {
        width: 100%;
    }
-   .reportHeader {
+   .report-Header {
       flex-direction: column;
       align-items: center;
       margin-bottom: 5px;
@@ -79,7 +79,7 @@
    table thead tr td {
        column-span: 1;
    }
-   .tableHeader {
+   .table-Header {
        flex-direction: column;
    }
  }
