@@ -37,7 +37,7 @@
 
     <nav class="bot-Nav">
       <div class="bot-Nav-Left hide">
-        <img src="ficon.jpg" width="40px" height="40px" alt="" class="fimage">
+        <img src="ficon.jpg" alt="" class="fimage">
         <div class="bot-Nav-Text hide">
           <i class="fa-solid fa-table-columns fa-xl"></i>
           <span>Dashboards</span>
@@ -63,13 +63,12 @@
       <div class="bot-Nav-Right hide">
         <i class="fa fa-search" aria-hidden="true"></i>
         <input type="search"
-          style="padding-left: 10px; border-right: 2px solid black; border-radius: 10px; width: 75px;  border: transparent;"
-          placeholder="Search..." name="" id="">&emsp;
+          placeholder="Search..." name="" id="search">&emsp;
         <div class="bot-Nav-Right-Icons">
           <i class="fa-regular fa-file fa-xl" style="color: black;"></i>&emsp;
           <i class="fa-regular fa-bell fa-xl" style="color: black;"></i>&emsp;
         </div>
-        <img src="profileImage.jpg" width="40px" style="border-radius: 5px; float: right; padding-left: 20px;" alt="">
+        <img src="profileImage.jpg" class="bot-nav-image" alt="">
 
       </div>
 
@@ -89,21 +88,11 @@
         <p style="color: gray;">This is an example dashboard created using build-in elements and components</p>
       </div>
       <div>
-        <a href="" style="border: 2px solid purple; box-shadow:
-      3.6px 3.6px 9.6px -2px rgba(0, 0, 0, 0.24),
-      8.7px 8.6px 23.1px -2px rgba(0, 0, 0, 0.173),
-      16.4px 16.2px 43.6px -2px rgba(0, 0, 0, 0.143),
-      29.3px 28.8px 77.7px -2px rgba(0, 0, 0, 0.12),
-      54.7px 53.9px 145.4px -2px rgba(0, 0, 0, 0.097),
-      131px 129px 348px -2px rgba(0, 0, 0, 0.067) ;margin: 7px; padding: 6px 13px;"><i
-            class="fa-solid fa-star"></i></a>
-        <a href="" style="text-decoration: none; border-radius: 3px;background-color: rgb(71, 172, 100); color: white; font-weight: bold; box-shadow:
-      3.6px 3.6px 9.6px -2px rgba(0, 0, 0, 0.24),
-      8.7px 8.6px 23.1px -2px rgba(0, 0, 0, 0.173),
-      16.4px 16.2px 43.6px -2px rgba(0, 0, 0, 0.143),
-      29.3px 28.8px 77.7px -2px rgba(0, 0, 0, 0.12),
-      54.7px 53.9px 145.4px -2px rgba(0, 0, 0, 0.097),
-      131px 129px 348px -2px rgba(0, 0, 0, 0.067);padding: 6px 20px;">+ Add New</a>
+        <a href="" class="star" >
+          <i class="fa-solid fa-star" style="color: white"></i>
+          <i class="fa-solid fa-chevron-down fa-2xs" style="color: white;"></i>
+          </a>
+        <a href="" class="addNew">+ Add New</a>
       </div>
     </div>
 
