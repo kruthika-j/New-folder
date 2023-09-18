@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767px) {
     
    .top-Nav {
        display: none;
@@ -6,33 +6,20 @@
 
    .bot-Nav {
        border-bottom: 1px solid black;
-       /* box-shadow: 
-       0px 7.4px 9.6px -2px rgba(0, 0, 0, 0.24),
-       0px 17.9px 23.1px -2px rgba(0, 0, 0, 0.173),
-       0px 33.7px 43.6px -2px rgba(0, 0, 0, 0.143),
-       0px 60.1px 77.7px -2px rgba(0, 0, 0, 0.12),
-       0px 112.4px 145.4px -2px rgba(0, 0, 0, 0.097),
-       0px 269px 348px -2px rgba(0, 0, 0, 0.067)
-     ; */
    }
    nav,.third-Section,.fourth-Section,.fifth-Section {
        padding-left: 5%;
        padding-right: 5%;
-
    }
-
    .hide {
     display: none;
    }
-
  .res-Nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   } 
-
-
+   }
    .third-Section {
        display: block;
        height: 160px;
@@ -69,13 +56,9 @@
       margin-bottom: 5px;
    }
    tbody {
-    /* width: 200px; */
-    /* margin: 0% 5% 0% 10%; */
     padding: 0;
     overflow-x: scroll;
-
-}
-
+   }
    table thead tr td {
        column-span: 1;
    }
@@ -83,3 +66,49 @@
        flex-direction: column;
    }
  }
+
+ @media screen and (max-width: 991px)and (min-width: 768px) {
+ 
+    .hide {
+        display: none;
+       }
+    .res-Nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+       .third-Section {
+        display: block;
+        height: 160px;
+        text-align: center;
+        line-height: 28px;
+    }
+    .third-Section-Left {
+        border-left: none;
+        margin-top: 0px;
+    }
+    .fifth-Section {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .report, .highlights {
+        width: 90%;
+        margin-bottom: 5px;
+    }
+    .report-Header {
+       flex-direction: column;
+       align-items: center;
+    }
+    
+   table{
+    width: 85%;
+    margin: auto;
+   }
+   .table-Header{
+    width: 81%;
+    margin: auto;
+   }
+
+}
