@@ -48,8 +48,8 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
 .bot-nav-image{
     width:40px;
     border-radius: 5px;
-     float: right;
-      padding-left: 20px;
+    float: right;
+    padding-left: 20px;
 }
 .bot-Nav-Right-Icons {
     display: flex;
@@ -143,36 +143,68 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 100%;
+}
+.res-Nav button {
+    border: none;
+    background-color: white;
 }
 .dropdown-Content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    width: 100%;
-   margin-top: 20px;
-   padding-left: 5%;
+    width: 100vw;
+    margin-top: 20px;
+    margin-left: -30px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.dropdown:hover .dropdown-Content {
-    display: block;
-}
 .dropdown-Content a {
-    padding: 12px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     display: block;
+    color: black;
+    border-top: 1px solid rgb(211, 210, 210);
 }
-.dropdown-Content a:hover {
-    background-color: #ddd;
+.dropdown-Content a i {
+    padding-right: 10px;
+}
+#toggleRight {
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-Right-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 60vw;
+    margin: 0px 70px;
+    padding: 0px 40px;
+    border: 1px solid rgb(195, 194, 194);
+    border-radius: 25px;
+    box-shadow: 0 0 15px 0 #000;
+    background-color: white;
+}
+.dropdown-Right-Search {
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border: none;
+}
+.dropdown-Right-image{
+    width: 40px;
+    height: 40px;
+    margin: 5px 0px;
 }
 .third-Section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height:100px;
-    background-color: #fcfcfc;
-    border-bottom: 1px solid rgb(219, 214, 214);
+    background-color: #f4f2f2;
+    border-bottom: 1px solid rgb(194, 190, 190);
 }
 .third-Section-Left {
     margin: 20px 0px; 
@@ -191,7 +223,7 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
       29.3px 28.8px 77.7px -2px rgba(0, 0, 0, 0.12),
       54.7px 53.9px 145.4px -2px rgba(0, 0, 0, 0.097),
       131px 129px 348px -2px rgba(0, 0, 0, 0.067) ;
-      margin: 7px;
+    margin: 7px;
     padding: 6px 13px;
     background-color: rgb(61, 60, 60);
 }
@@ -215,7 +247,7 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
     justify-content: space-between;
     align-items: center;
     height:50px;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(240, 239, 239);
     border-bottom: 1px solid rgb(219, 214, 214);
 }
 .fourth-Section-Mid {
@@ -223,6 +255,7 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
     position: relative;
 }
 .fourth-Section-center {
+    position: relative;
     text-decoration: none;
     padding-left: 35px;
     box-sizing: border-box;
@@ -232,14 +265,13 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
 }
 .fourth-Section-center::after {
     content: "";
-    position: absolute;
-    width: 5%;
+    position: absolute;    
+    width: 10%;
     height: 0.175rem;
     border: 1px solid blueviolet;
     border-radius: 50px;
     margin-left: -35px;
     margin-top: -5px;
-    top: 0;
     background-color: blueviolet; 
 }
 .fourth-Section-center::after {
@@ -253,8 +285,10 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
     color: black;
 }
 .fourth-Section-Link {
+    color: rgb(185, 184, 184);
     text-decoration: none;
     padding-left: 10px;
+    font-size: small;
     padding-right: 10px;
 }
 .fifth-Section {
@@ -277,7 +311,13 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
 }
 #options {
     padding: 10px;
-    padding-right: 1px;
+    padding-right: 10px;
+    background-color: white;
+    padding: 6px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    color: rgb(84, 83, 83);
 }
 .highlights {
     color: rgb(198, 183, 183);
