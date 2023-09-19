@@ -138,6 +138,33 @@ nav,.third-Section,.fourth-Section,.fifth-Section {
 }
 .res-Nav {
     display: none;
+    width: 100%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.dropdown-Content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+   margin-top: 20px;
+   padding-left: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-Content {
+    display: block;
+}
+.dropdown-Content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-Content a:hover {
+    background-color: #ddd;
 }
 .third-Section {
     display: flex;
